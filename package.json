@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vite plugin for modifying the input html template.",
   "source": "src/index.ts",
   "type": "commonjs",

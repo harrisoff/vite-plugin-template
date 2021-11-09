@@ -1,5 +1,8 @@
 # VITE-PLUGIN-TEMPLATE
 
+[![npm version](https://badge.fury.io/js/vite-plugin-template.svg)](https://www.npmjs.com/package/vite-plugin-template)
+![license](https://img.shields.io/npm/l/vite-plugin-template)
+
 A Vite plugin for modifying the entry html file.
 
 [中文文档](./README.zh_CN.md)
