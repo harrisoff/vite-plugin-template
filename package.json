@@ -1,9 +1,18 @@
 {
   "name": "vite-plugin-template",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Vite plugin for modifying the input html template.",
-  "main": "src/index.ts",
+  "source": "src/index.ts",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "README.zh_CN.md"
+  ],
   "scripts": {
+    "build": "microbundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -31,6 +40,7 @@
     "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^8.2.0",
     "eslint-config-xo": "^0.39.0",
+    "microbundle": "^0.14.1",
     "typescript": "^4.4.4",
     "vite": "^2.6.13"
   }
